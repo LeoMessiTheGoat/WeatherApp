@@ -57,16 +57,16 @@ const App = () => {
       icon = <BsCloudHaze2Fill />;
       break
     case 'Rain':
-      icon = <IoMdRainy />;
+      icon = <IoMdRainy className='text-[#31cafb]' />;
       break
     case 'Clear':
-      icon = <IoMdSunny />;
+      icon = <IoMdSunny className='text-[#ffde33]' />;
       break
     case 'Drizzle':
-      icon = <BsCloudDrizzleFill />;
+      icon = <BsCloudDrizzleFill className='text-[#31cafb]' />;
       break
     case 'Snow':
-      icon = <IoMdSnow />;
+      icon = <IoMdSnow className='text-[#31cafb]' />;
       break
     case 'Thunderstorm':
       icon = <IoMdThunderstorm />;
